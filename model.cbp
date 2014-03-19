@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="model" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/model" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/model" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Analyser.h" />
+		<Unit filename="include/Car.h" />
+		<Unit filename="include/Common.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="include/Detector.h" />
+		<Unit filename="include/Engine.h" />
+		<Unit filename="include/Lane.h" />
+		<Unit filename="include/Point.h" />
+		<Unit filename="include/Road.h" />
+		<Unit filename="include/TrafficLight.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Analyser.cpp" />
+		<Unit filename="src/Car.cpp" />
+		<Unit filename="src/Common.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="src/Detector.cpp" />
+		<Unit filename="src/Engine.cpp" />
+		<Unit filename="src/Lane.cpp" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/Road.cpp" />
+		<Unit filename="src/TrafficLight.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

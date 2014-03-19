@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1394058722 source:g:\science\dev\cppmodelcodeblocks3\model\main.cpp
+	<iostream>
+	"../include/Engine.h"
+	"../include/Analyser.h"
+
+1391900733 source:g:\science\dev\cppmodelcodeblocks3\model\src\car.cpp
+	"../include/Car.h"
+
+1391900705 g:\science\dev\cppmodelcodeblocks3\model\include\car.h
+	"../include/Common.h"
+	"../include/Point.h"
+	"../include/Lane.h"
+
+1391900926 source:g:\science\dev\cppmodelcodeblocks3\model\src\detector.cpp
+	"../include/Detector.h"
+
+1391900905 g:\science\dev\cppmodelcodeblocks3\model\include\detector.h
+	<cstddef>
+	"../include/Point.h"
+
+1394062461 source:g:\science\dev\cppmodelcodeblocks3\model\src\engine.cpp
+	"../include/Engine.h"
+
+1394061611 g:\science\dev\cppmodelcodeblocks3\model\include\engine.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	<fstream>
+	<cmath>
+	"../include/Road.h"
+	"../include/Common.h"
+	"../include/Analyser.h"
+
+1391901001 source:g:\science\dev\cppmodelcodeblocks3\model\src\lane.cpp
+	"../include/Lane.h"
+
+1391900968 g:\science\dev\cppmodelcodeblocks3\model\include\lane.h
+	<cstddef>
+	<cmath>
+	"../include/Common.h"
+	"../include/Point.h"
+
+1390583723 source:g:\science\dev\cppmodelcodeblocks3\model\src\point.cpp
+	"../include/Point.h"
+
+1390583661 g:\science\dev\cppmodelcodeblocks3\model\include\point.h
+
+1390588473 source:g:\science\dev\cppmodelcodeblocks3\model\src\road.cpp
+	"../include/Road.h"
+
+1390588459 g:\science\dev\cppmodelcodeblocks3\model\include\road.h
+	<vector>
+	"../include/Point.h"
+	"../include/Lane.h"
+	"../include/TrafficLight.h"
+	"../include/Detector.h"
+	"../include/Car.h"
+
+1391286866 source:g:\science\dev\cppmodelcodeblocks3\model\src\analyzer.cpp
+	"Analyzer.h"
+
+1391286724 g:\science\dev\cppmodelcodeblocks3\model\include\analyzer.h
+
+1391901072 g:\science\dev\cppmodelcodeblocks3\model\include\trafficlight.h
+	"../include/Point.h"
+
+1391901080 source:g:\science\dev\cppmodelcodeblocks3\model\src\trafficlight.cpp
+	"../include/TrafficLight.h"
+
+1394060473 g:\science\dev\cppmodelcodeblocks3\model\include\common.h
+	<cmath>
+	<cstddef>
+	<string>
+	<vector>
+	"../include/Point.h"
+
+1394060385 source:g:\science\dev\cppmodelcodeblocks3\model\src\common.cpp
+	"../include/Common.h"
+
+1394069373 source:g:\science\dev\cppmodelcodeblocks3\model\src\analyser.cpp
+	"../include/Analyser.h"
+
+1394058359 g:\science\dev\cppmodelcodeblocks3\model\include\analyser.h
+	<iostream>
+	<fstream>
+	<vector>
+	"../include/Common.h"
+	"../include/Point.h"
+
